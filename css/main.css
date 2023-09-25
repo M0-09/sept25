@@ -1,0 +1,44 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 35%;
+    border-radius: 5px;
+    border: 2px solid #555555;
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
+.card-link {
+    text-decoration: none; 
+}
+.card:hover {
+    background-color: #555555;
+  color: white;
+}
+.container {
+    padding: 2px 16px;
+}
+img {
+    float: left;
+    margin-right: 1rem;
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+    mix-blend-mode: normal;
+    clip-path: circle(50%);
+    display: none; 
+}
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}   
+p {
+    padding: 1rem;
+}
+@media screen and (width  >= 600px) {
+  
+    p {
+        font-size: 24px;
+    }
+    img {
+        display: block;
+    }
+}
